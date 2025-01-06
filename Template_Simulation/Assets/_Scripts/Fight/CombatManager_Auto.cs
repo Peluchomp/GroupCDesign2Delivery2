@@ -21,7 +21,7 @@ public class CombatManager_Auto : MonoBehaviour
     // Start is called before the first frame update
     
     int nSimulations = 50;
-    const int nSamples=40;
+    const int nSamples=20;
     int[] winA = new int[nSamples];
     int[] winB = new int[nSamples];
     int iteration = 0;
@@ -56,7 +56,6 @@ public class CombatManager_Auto : MonoBehaviour
 
         for (int i = 0; i < nSamples; i++)
         {
-            
             writer.WriteLine(_hp[i] + ";"+winA[i]+";"+winB[i]);
         }
         
@@ -86,10 +85,10 @@ public class CombatManager_Auto : MonoBehaviour
     {
         foreach (var fighter in EntityManager.AllFighters)
         {
-            fighter.SetParameters(100, 100,10, 5);
+            fighter.SetParameters((int)fighter.MaxHealth, (int)fighter.MaxMana, 10, 5);
         }
 
-        EntityManager.AllFighters[2].SetParameters(_hp[iteration], _mana[iteration], 10, 5);
+        //EntityManager.AllFighters[2].SetParameters(_hp[iteration], _mana[iteration], 10, 5);
     }
 
     void DoAllTurns()

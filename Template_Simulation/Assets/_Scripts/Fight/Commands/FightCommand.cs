@@ -40,7 +40,20 @@ public enum FightCommandTypes
     Heal,
     BuffAttack,
     BuffDefense,
-    FireBall
+    FireBall,
+    EldertreeBlossom,
+    RootBind,
+    SylvaniSurge,
+    EnergyBolt,
+    BarrierProjection,
+    RunicDisruption,
+    ManaSiphon,
+    FrostSpike,
+    NecroticBeam,
+    FrozenDominion,
+    HeavyStrike,
+    GlacialShield,
+    FrozenResolve
 
 }
 

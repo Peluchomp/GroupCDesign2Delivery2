@@ -77,6 +77,20 @@ public class Fighter : Entity
         }
     }
 
+    public void RestoreMana(int mana)
+    {
+        CurrentMana += mana;
+        CurrentMana = Mathf.Clamp(CurrentMana, 0, MaxMana);
+        OnChange?.Invoke();
+    }
+
+    public void Heal(int health)
+    {
+        CurrentHealth += health;
+        CurrentHealth = Mathf.Clamp(CurrentHealth, 0, MaxHealth);
+        OnChange?.Invoke();
+    }
+
     public void Die()
     {
         //Destroy(gameObject);

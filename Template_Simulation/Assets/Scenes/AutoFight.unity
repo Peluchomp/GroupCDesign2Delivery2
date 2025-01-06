@@ -155,10 +155,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 0
   CurrentHealth: 0
-  MaxHealth: 100
+  MaxHealth: 180
   CurrentMana: 0
-  MaxMana: 100
-  PossibleCommands: 0000000005000000
+  MaxMana: 130
+  PossibleCommands: 080000000600000007000000
 --- !u!212 &8695805
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -526,10 +526,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 0
   CurrentHealth: 0
-  MaxHealth: 100
+  MaxHealth: 200
   CurrentMana: 0
   MaxMana: 100
-  PossibleCommands: 0000000002000000
+  PossibleCommands: 0c000000090000000a0000000b000000
 --- !u!212 &1076451288
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -676,10 +676,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 1
   CurrentHealth: 0
-  MaxHealth: 100
+  MaxHealth: 200
   CurrentMana: 0
-  MaxMana: 100
-  PossibleCommands: 0000000002000000
+  MaxMana: 150
+  PossibleCommands: 0f0000000d0000000e000000
 --- !u!212 &1612530095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -849,10 +849,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Team: 1
   CurrentHealth: 0
-  MaxHealth: 100
+  MaxHealth: 300
   CurrentMana: 0
-  MaxMana: 100
-  PossibleCommands: 0000000005000000
+  MaxMana: 50
+  PossibleCommands: 120000001000000011000000
 --- !u!212 &2057409987
 SpriteRenderer:
   m_ObjectHideFlags: 0
